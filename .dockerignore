@@ -1,0 +1,39 @@
+# 資料庫資料目錄
+.docker-env/.db_data/
+**/pgdata/
+
+# Node modules
+**/node_modules/
+**/.nuxt/
+**/.output/
+**/dist/
+
+# Laravel
+**/vendor/
+**/storage/logs/
+**/storage/framework/
+**/bootstrap/cache/
+
+# Git
+.git/
+.gitignore
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 環境檔案
+.env
+.env.*
+
+# 系統檔案
+.DS_Store
+Thumbs.db
+
+# 日誌
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
